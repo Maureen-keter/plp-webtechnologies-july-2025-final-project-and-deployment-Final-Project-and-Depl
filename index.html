@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Coffee Haven</title>
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="logo">☕ Coffee Haven</div>
+    <nav>
+      <ul id="nav-links">
+        <li><a href="#home" class="active">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <button id="menu-toggle">☰</button>
+  </header>
+
+  <!-- Hero -->
+  <section id="home" class="hero">
+    <h1>Welcome to Coffee Haven</h1>
+    <p>Your daily dose of freshly brewed happiness</p>
+    <a href="#menu" class="btn">Order Now</a>
+  </section>
+
+  <!-- About -->
+  <section id="about">
+    <h2>About Us</h2>
+    <p>At Coffee Haven, we believe coffee is more than a drink – it’s a culture. Our mission is to serve love in every cup.</p>
+  </section>
+
+  <!-- Menu -->
+  <section id="menu">
+    <h2>Our Menu</h2>
+    <ul class="menu-list">
+      <li>Espresso - $3</li>
+      <li>Latte - $4</li>
+      <li>Cappuccino - $4</li>
+      <li>Mocha - $5</li>
+    </ul>
+  </section>
+
+  <!-- Gallery -->
+  <section id="gallery">
+    <h2>Our Coffee Moments</h2>
+    <div class="gallery-grid">
+      <img src="https://images.unsplash.com/photo-1504754524776-8f4f37790ca0?auto=format&fit=crop&w=500&q=80" alt="Coffee 1">
+      <img src="https://images.unsplash.com/photo-1511920170033-f8396924c348?auto=format&fit=crop&w=500&q=80" alt="Coffee 2">
+      <img src="https://images.unsplash.com/photo-1527168027773-0cc890c51d4e?auto=format&fit=crop&w=500&q=80" alt="Coffee 3">
+      <img src="https://images.unsplash.com/photo-1523942839745-7848c839b661?auto=format&fit=crop&w=500&q=80" alt="Coffee 4">
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <form id="contactForm">
+      <input type="text" id="name" placeholder="Your Name" required>
+      <input type="email" id="email" placeholder="Your Email" required>
+      <textarea id="message" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>
+        &copy; 2025 Coffee Haven
+    </p>
+  </footer>
+</body>
+</html>
